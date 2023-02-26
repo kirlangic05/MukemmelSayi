@@ -33,8 +33,11 @@ public class Amortisman {
             tempSayi /= 10;
 
         }
-        System.out.println(total);
-
+if(total==sayi){
+    System.out.println(sayi+" sayısı Amortisman sayıdır.");
+}else{
+    System.out.println(sayi+" sayısı Amortisman sayı değildir.");
+}
 
 
     }
